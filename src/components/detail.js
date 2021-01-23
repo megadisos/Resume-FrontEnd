@@ -1,10 +1,40 @@
 import React, {useState} from 'react'
-
+import nabta from '../images/nabta.JPG'
+import ardi from '../images/ardi.JPG'
+import zona from '../images/zona.JPG'
+import mf from '../images/misterf.JPG'
+import acue from '../images/acue.JPG'
 function Details(props){
-   
+    if(props.select == "Portfolio"){
+        return(
+            <div>
+                <a href="https://drive.google.com/file/d/11ih7SINWB6GHlXok0a8WOi6ODITy9FCj/view?usp=sharing"><button type="button" class="btn btn-primary button-cv">Download Printable Resume</button></a>
+        <div className="details navbar-light bg-light">
+              <p></p>
+              <a href="https://www.ardi-services.com/"><h6 className="name" >Ardi Services</h6>
+              <img src={ardi} width="200px" height="150px"></img></a>
+              <p></p>
+              <a href="https://www.nabtastore.com.co/"><h6 className="name mt-2" >Nabta Store</h6>
+              <img src={nabta} width="200px" height="150px"></img></a>
+              <p></p>
+              <a href="https://www.nabtastore.com.co/"><h6 className="name mt-2" >Zona Sport</h6>
+              <img src={zona} width="200px" height="150px"></img></a>
+              <a href="https://www.acueductosaucio.site/"><h6 className="name mt-2" >Acueducto Saucio</h6>
+              <img src={acue} width="200px" height="150px"></img></a>
+              <a href="https://www.misterfsite.com/"><h6 className="name mt-2" >Mister F</h6>
+              <img src={mf} width="200px" height="150px"></img></a>
+              
+
+             </div>
+             </div>
+             )
+             
+       
+
+     }else{
    
     return(
-        <div><button type="button" class="btn btn-primary button-cv">Download Printable Resume</button>
+        <div><a href="https://drive.google.com/file/d/11ih7SINWB6GHlXok0a8WOi6ODITy9FCj/view?usp=sharing"><button type="button" class="btn btn-primary button-cv">Download Printable Resume</button></a>
         <div className="details navbar-light bg-light">
            
          {props.about && props.about.map(item =>{
@@ -83,6 +113,7 @@ function Details(props){
         </div>
         </div>
     )
+        }
     
 }
 export default Details

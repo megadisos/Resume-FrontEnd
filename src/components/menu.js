@@ -31,6 +31,10 @@ function Menu(props){
 
     console.log(value)
    }
+   function ShowPorfolio(value){
+    setSelect(value)
+    console.log(select)
+   }
     return(
         <div>
         <div className="row">
@@ -50,9 +54,9 @@ function Menu(props){
       <li className="nav-item">
         <a className="nav-link "  style={ select == "Education" ? {color:'#154399'}:{} } onClick={(e) =>{ShowData("Education")}}>EDUCATION</a>
       </li>
-      {/* <li className="nav-item">
-        <a className="nav-link "  >PORTFOLIO</a>
-      </li> */}
+      <li className="nav-item">
+        <a className="nav-link "  onClick={(e) =>{ShowPorfolio("Portfolio")}}>PORTFOLIO</a>
+      </li> 
       <li className="nav-item">
         <a className="nav-link "  style={ select == "Contact" ? {color:'#154399'}:{} } onClick={(e) =>{ShowData("Contact")}}>CONTACT</a>
       </li>

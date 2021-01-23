@@ -9,7 +9,7 @@ function Title(props){
             <div className="info">
                 <h1>I'M JORGE REALES</h1>
                 <p class="lead">Full Stack Web developer</p>
-                <button type="button" class="btn btn-primary">Contact me</button>
+                <a href="https://wa.link/elpofa"><button type="button" class="btn btn-primary">Contact me</button></a>
                 </div>
                
 
