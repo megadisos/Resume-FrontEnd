@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import nabta from '../images/nabta.JPG'
-import ardi from '../images/ardi.JPG'
-import zona from '../images/zona.JPG'
-import mf from '../images/misterf.JPG'
-import acue from '../images/acue.JPG'
+import nabta from '../images/nabta.jpg'
+import ardi from '../images/ardi.jpg'
+import zona from '../images/zona.jpg'
+import mf from '../images/misterf.jpg'
+import acue from '../images/acue.jpg'
 function Details(props){
     if(props.select == "Portfolio"){
         return(
