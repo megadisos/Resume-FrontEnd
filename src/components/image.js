@@ -1,5 +1,5 @@
 import React from 'react-dom'
-import myimg from '../images/me.jpg'
+import myimg from '../images/me.png'
 function Image(props){
     return(
         <div className="myimage navbar-light bg-light" >
