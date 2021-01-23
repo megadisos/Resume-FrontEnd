@@ -4,7 +4,7 @@ import Details from './detail'
 function Menu(props){
     const [about,setAbout] = useState([])
     useEffect(()=>{
-      fetch(`https://www.nabtastore.com.co/api/About/`,{
+      fetch(`https://45.33.100.225/api/About/`,{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ function Menu(props){
     const [select, setSelect] = useState("")
     function ShowData(value){
      setSelect(value)
-      fetch(`https://www.nabtastore.com.co//api/`+value+`/`,{
+      fetch(`https://45.33.100.225/api/`+value+`/`,{
               method: 'GET',
               headers: {
                   'Content-Type': 'application/json',
