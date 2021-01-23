@@ -219,27 +219,27 @@
   .role{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16px;
     top:-18px;
     
   }
   .contact{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16px;
     top:-10px;
   }
   .role_exp{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16px;
     top:-5px;
     
   }
   .name{
   
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     
   
@@ -249,20 +249,20 @@
     position: relative;
     top: -30px;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
    
   }
   .period{
     margin-top:-10px;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
   }
   .text_exp{
     position: relative;
     top: -5px;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     white-space: pre-line;
   }
   .btn-primary{
@@ -360,27 +360,27 @@
   .role{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16px;
     top:-18px;
     
   }
   .contact{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16px;
     top:-10px;
   }
   .role_exp{
     position: relative;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 16x;
     top:-5px;
     
   }
   .name{
   
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     
   
@@ -390,20 +390,20 @@
     position: relative;
     top: -30px;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
    
   }
   .period{
     margin-top:-10px;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
   }
   .text_exp{
     position: relative;
     top: -5px;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     white-space: pre-line;
   }
   .btn-primary{
