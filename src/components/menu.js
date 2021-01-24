@@ -39,7 +39,7 @@ function Menu(props){
         <div>
         <div className="row">
             <div className="col-12">
-            <nav className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm ">
+            <nav className="navbar navbar-expand-lg navbar-expand-md ">
   <div >
     <ul className="navbar-nav">
       <li className="nav-item active">
